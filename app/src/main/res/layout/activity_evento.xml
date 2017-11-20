@@ -43,7 +43,7 @@
             android:paddingLeft="5dp"
             android:textColor="#d63a2f"/>
         <EditText
-            android:id="@+id/descr"
+            android:id="@+id/Descr"
             android:drawableLeft="@drawable/ic_description_black_24dp"
             android:drawablePadding="10dp"
             android:layout_width="300dp"
