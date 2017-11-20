@@ -58,7 +58,7 @@ public class AdpterFechas extends BaseAdapter {
 
         holder.tvnumperiodo.setText((position+1) + "° Periodo");
         holder.tvRango.setText(fecha_a);
-        
+
         return convertView;
     }
 
