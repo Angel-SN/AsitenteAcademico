@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import app.proyectos.desarrollo.asitenteacademico.Adapter.AdapterFechas;
+
 public class PeriodoActivity extends AppCompatActivity {
 
     private ListView lvFechas;

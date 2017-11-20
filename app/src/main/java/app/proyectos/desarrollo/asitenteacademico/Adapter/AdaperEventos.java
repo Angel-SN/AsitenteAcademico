@@ -1,8 +1,6 @@
-package app.proyectos.desarrollo.asitenteacademico;
+package app.proyectos.desarrollo.asitenteacademico.Adapter;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,13 +9,15 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class AdapterFechas extends BaseAdapter {
+import app.proyectos.desarrollo.asitenteacademico.R;
+
+public class AdaperEventos extends BaseAdapter {
 
     Context contex;
     private int layout;
     private List<String> fechas;
 
-    public AdapterFechas(Context contex, int layout, List<String> fechas) {
+    public AdaperEventos(Context contex, int layout, List<String> fechas) {
         this.contex = contex;
         this.layout = layout;
         this.fechas = fechas;
