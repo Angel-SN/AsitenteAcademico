@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="app.proyectos.desarrollo.asitenteacademico.RegistroActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+        <EditText
+            android:id="@+id/Even"
+            android:drawableLeft="@drawable/ic_event_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="530dp"
+            android:textColor="#d63a2f"
+            />
+        <EditText
+            android:id="@+id/mate"
+            android:drawableLeft="@drawable/ic_subject_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Materia"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textColor="#d63a2f"/>
+        <EditText
+            android:id="@+id/descr"
+            android:drawableLeft="@drawable/ic_description_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Descripcón"
+            android:inputType="textPassword"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textColor="#d63a2f"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEven"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyleprimary"
+        android:text="Guardar  Evento"
+        android:textColor="#FFF" />
+</LinearLayout>

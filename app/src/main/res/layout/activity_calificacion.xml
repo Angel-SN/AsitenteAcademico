@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="app.proyectos.desarrollo.asitenteacademico.RegistroActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/paloma"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_check_circle_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+        <EditText
+            android:id="@+id/Cal"
+            android:drawableLeft="@drawable/ic_confirmation_number_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calificacion " />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="530dp"
+            android:textColor="#d63a2f"
+            />
+        <EditText
+            android:id="@+id/porc"
+            android:drawableLeft="@drawable/ic_create_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Porcentaje"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textColor="#d63a2f"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textColor="#d63a2f"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyleprimary"
+        android:text="Registrar Calificación"
+        android:textColor="#FFF" />
+</LinearLayout>
