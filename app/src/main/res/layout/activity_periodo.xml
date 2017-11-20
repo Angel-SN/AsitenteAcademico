@@ -22,38 +22,41 @@
             app:srcCompat="@drawable/ic_person"
             tools:ignore="VectorDrawableCompat" />
     </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="50dp"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="left">
-
-        <TextView
-            android:id="@+id/tvNumPeriodos"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"/>
+            android:orientation="vertical"
+            android:gravity="left">
 
-        <SeekBar
-            android:id="@+id/sbNumPeriodos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <ListView
-            android:id="@+id/lvFechas"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            <TextView
+                android:id="@+id/tvNumPeriodos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
 
-        </ListView>
-    </LinearLayout>
+            <Button
+                android:id="@+id/btnAgregar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Agregar periodos"
+                android:textColor="#FFF"
+                android:background="@drawable/buttonstyleprimary"/>
+            <ListView
+                android:id="@+id/lvFechas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
 
-    <Button
-        android:id="@+id/btnRegistro"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/buttonstyleprimary"
-        android:text="registrar"
-        android:textColor="#FFF" />
+            </ListView>
+            <Button
+                android:id="@+id/btnGuardarPeriodo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonstyleprimary"
+                android:text="Guardar"
+                android:textColor="#FFF" />
+        </LinearLayout>
 </LinearLayout>
